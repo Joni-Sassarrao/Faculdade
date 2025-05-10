@@ -77,4 +77,4 @@ document.getElementById("btn-limpar").onclick = () => {
     tarefas = [];
     localStorage.removeItem("tarefas");
     renderizarTarefas();
-  };
+};
