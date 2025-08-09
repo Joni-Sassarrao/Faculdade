@@ -95,6 +95,10 @@ linha. É BOM USAR minmax(), pois assim ele controla a quebra de forma igual
 
 .ex-4 {
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    row-gap: 20px;
+    column-gap: 30px;
+    gap: 50px 80px;
+    gap: 20px;
 }
 
 /* auto-fill
