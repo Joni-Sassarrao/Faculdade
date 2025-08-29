@@ -93,6 +93,9 @@ linha. É BOM USAR minmax(), pois assim ele controla a quebra de forma igual
 
 */
 
+/* o auto-fit que vai fazer a responsividade, ele cria o número máximo de colunas que caibam na tela
+*/
+
 .ex-4 {
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     row-gap: 20px;
@@ -105,6 +108,6 @@ linha. É BOM USAR minmax(), pois assim ele controla a quebra de forma igual
 mesmo que o auto-fit, apenas não cresce as colunas para que ocupem todo espaço vazio */
 
 .ex-5 {
-    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
 }
 
